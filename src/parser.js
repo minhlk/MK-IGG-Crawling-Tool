@@ -1,5 +1,5 @@
 document.getElementById('submit').addEventListener('click', () =>{
-    console.log(getPostUrl(accessToken));
+    document.getElementById('code').value = getPostUrl(accessToken);
 })
 var getPostUrl = function (token) {
     return `
