@@ -1,0 +1,13 @@
+image: node:12.18.3
+
+stages:
+  - build
+
+before_script:
+  - npm install
+
+build-min-code:
+  stage: build
+  script:
+    - npm install
+    - npm run start

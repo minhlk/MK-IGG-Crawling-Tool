@@ -1,0 +1,20 @@
+{
+  "name": "mk-wordpress-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/duyminhdev/mk-wordpress-updater.git"
+  },
+  "author": "MK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/duyminhdev/mk-wordpress-updater/issues"
+  },
+  "homepage": "https://gitlab.com/duyminhdev/mk-wordpress-updater#readme"
+}
